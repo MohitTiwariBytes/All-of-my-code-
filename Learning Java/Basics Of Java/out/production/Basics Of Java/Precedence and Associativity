@@ -1,0 +1,39 @@
+Precedence and Associativity
+
+The Java compiler starts doing operation based on this line:
+
+                                         [ Java compiles like this (| -->) first goes down then from left ]
+                                                                    V
+
+PostFix         ---->        ++, --, !
+PreFix          ---->        ++, --
+new (Is an Operator)
+Multiplicative  ---->        *, /, %
+Addictive       ---->        +, -
+Shift           ---->        <<, >>
+Relational      ---->        <, > , <=, >=
+Equality        ---->        ==, !=
+Bitwise And     ---->        &3
+Bitwise XOR     ---->        ^
+Logical and     ---->        &&
+Logical or      ---->        !!
+Conditional     ---->        ? :
+Assignment      ---->        =
+Compound        ---->        +=, + (e.g. x += 10, x = x + 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
